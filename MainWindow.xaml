@@ -1,0 +1,15 @@
+﻿<Window x:Class="_314243_ScrabbleCheating.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_314243_ScrabbleCheating"
+        mc:Ignorable="d"
+        WindowState="Maximized"
+        Title="MainWindow" Height="350" Width="525">
+    <StackPanel>
+        <Label x:Name="time" Content="Time taken to find words:"/>
+        <Label x:Name="preface" Content="With the tiles &quot;" Margin="0,0,261,0"/>
+        <TextBox x:Name="lblOut" ScrollViewer.VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Auto" ScrollViewer.CanContentScroll="True" Height="700" IsReadOnly="True"/>
+    </StackPanel>
+</Window>
